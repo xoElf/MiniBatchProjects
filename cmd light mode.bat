@@ -1,0 +1,11 @@
+@echo off
+color F0
+title Command Prompt Light Mode
+echo Microsoft Windows [Version 10.0.18363.1500]
+echo (c) 2019 Microsoft Corporation. All rights reserved.
+echo.
+:cmd
+set /p "cmd=%CD%>"
+%cmd%
+echo.
+goto cmd
